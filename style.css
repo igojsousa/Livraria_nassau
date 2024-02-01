@@ -82,13 +82,13 @@
     }
     .card-livro h1 {
         font-size: 1.2rem;
-        font-family: 'Nunito', cursive;
+        font-family: 'Times New Roman', Times, serif, cursive;
 
     }
     .card-livro h2{
         font-size: .9rem;
         color: #4b4a4a;
-        font-family: 'Nunito', cursive;
+        font-family: 'Times New Roman', Times, serif, cursive;
     }
 
     .saiba{
