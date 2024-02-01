@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Nassau</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <!--menu responsivo com botstrap-->
+      <nav class="enu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <img class="img-menu" src="midias/logo.png" alt="">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="catalago.html">Catálago<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recomendados">Recomendados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contatos">Contatos</a>
+              </li>
+            </ul>
+            <button class="login">
+              <a href="#">Login</a>
+            </button>
+          </div>
+        </nav>
+      </nav>  
+
+
+    </header> 
+
+    <main>
+        <!--Carrossel_bootstrap-->
+        <div class="carrossel">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="midias/1.png" alt="Primeiro Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="midias/2.png" alt="Segundo Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="midias/3.png" alt="Terceiro Slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
+
+            </div>
+
+            <!--livros-recomendados-->
+
+            <h1 class="titulo">Livros Recomendados</h1>
+
+            <article class="recomendados" id="recomendados">
+ 
+              <div class="card-livro">
+                <img class="img-livro" src="midias/livros/livro01.jpg" alt="imagem de um livro">
+                <div>
+                  <h1>O Programador Apaixonado</h1>
+                  <h2> Construindo uma carreira notável em desenvolvimento de software </h2>
+                  <button><a class="saiba" href="book.html">Saiba Mais</a></button>
+                </div>
+              </div>
+
+              <div class="card-livro">
+                <img class="img-livro" src="midias/livros/livro02.jpg" alt="imagem de um livro">
+                <div>
+                  <h1>Algoritmos - Teoria e Prática Capa</h1>
+                  <h2>Este livro apresenta um texto abrangente sobre o moderno estudo de algoritmos para computadores</h2>
+                  <button><a class="saiba" href="book2.html">Saiba Mais</a></button>
+                </div>
+              </div>
+
+              <div class="card-livro">
+                <img class="img-livro" src="midias/livros/livro03.jpg" alt="imagem de um livro">
+                <div>
+                  <h1>O Programador Pragmático</h1>
+                  <h2>De Aprendiz a Mestre Capa comum – 1 janeiro 2010</h2>
+                  <button><a class="saiba" href="book3.html">Saiba Mais</a></button>
+                </div>
+              </div>
+
+              <div class="card-livro">
+                <img class="img-livro" src="midias/livros/livro04.jpg" alt="imagem de um livro">
+                <div>
+                  <h1>Código limpo</h1>
+                  <h2>habilidades práticas do Agile software Capa comum – Edição padrão, 8 setembro 2009 </h2>
+                  <button><a class="saiba" href="book4.html">Saiba Mais</a></button>
+                </div>                                                                                                  
+              </div>
+
+              <div class="card-livro">
+                <img class="img-livro" src="midias/livros/livroR01.jpg" alt="imagem de um livro">
+                <div>
+                  <h1>A culpa é das estrelas</h1>
+                  <h2>Capa comum – 27 outubro 2014
+                    Edição Português  por John Green (Autor), Renata Pettengill (Tradutor)</h2>
+                  <button><a class="saiba" href="bookR01.html">Saiba Mais</a></button>
+                </div>
+              </div>
+
+              <div class="card-livro">
+                <img class="img-livro"  src="midias/livros/livroR02.jpg" alt="imagem de um livro">
+                <div>
+                  <h1>Romeu e Julieta</h1>
+                  <h2>por William Shakespeare (Autor), Domingos Ramos (Tradutor) </h2>
+                  <button><a class="saiba" href="bookR02.html">Saiba Mais</a></button>
+                </div>
+              </div>
+
+              <div class="card-livro">
+                <img class="img-livro" src="midias/livros/livroF01.jpg" alt="imagem de um livro">
+                <div>
+                  <h1>O Senhor dos Anéis</h1>
+                  <h2>A Sociedade do Anel (Volume 1) </h2>
+                  <button><a class="saiba" href="bookF01.html">Saiba Mais</a></button>
+                </div>
+              </div>
+
+              <div class="card-livro">
+                <img class="img-livro" src="midias/livros/livroF02.jpg" alt="imagem de um livro">
+                <div>
+                  <h1>O ladrão de raios</h1>
+                  <h2>(Percy Jackson e os Olimpianos Livro 1)</h2>
+                  <button><a class="saiba" href="bookF02.html">Saiba Mais</a></button>
+                </div>
+              </div>
+
+            </article>
+<div class="botaop">
+            <button class="cat-completo"><a href="catalago.html">Catálogo Completo</a></button>
+</div>
+
+
+
+
+<section class="comentarios">
+  <h1>Comentarios</h1>
+
+  <nav class="nav-com">
+    <div class="textos">
+      <img src="midias/foto-perfil_resized.jpg" alt="">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda consequatur magnam a deleniti voluptatum nostrum tempora repellat</p>
+    </div>
+
+    <div class="textos">
+      <img src="midias/foto-perfil_resized.jpg" alt="">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda consequatur magnam a deleniti voluptatum nostrum tempora repellat</p>
+    </div>
+
+    <div class="textos">
+      <img src="midias/foto-perfil_resized.jpg" alt="">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda consequatur magnam a deleniti voluptatum nostrum tempora repellat</p>
+    </div>
+
+    <div class="textos">
+      <img src="midias/foto-perfil_resized.jpg" alt="">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda consequatur magnam a deleniti voluptatum nostrum tempora repellat</p>
+    </div>
+
+  </nav>
+
+</section>
+
+
+
+
+            <section class="promocoes">
+             <div class="itens">
+              <h1>Receba todas as nossas promoções</h1>
+              <h2>Quer receber nossas ofertas? Cadastre-se e comece a recebê-las!</h2>
+              <input type="text" name="nome" value="" placeholder="E-mail" />
+              <button>Enviar</button>
+             </div>
+            </section>
+
+
+
+           
+            
+
+       
+    </main>
+
+    <footer id="contatos">
+      <div class="contatos">
+        <h1>Entre em Contato</h1>
+        <h2>Whatsapp (79)00000-0000</h2>
+        <h2>E-mail: Livrarianassau@teste.com</h2>
+        <h2>Av. Augusto Franco,1000 - Siqueira Campos - Aracaju-SE</h2>
+      </div>;
+    </footer>
+
+</body>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Mono&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital@0;1&family=Poppins&display=swap')
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+ }
+
+ .img-menu{
+    height: 60px;
+}
+
+.enu{
+    box-shadow: 0px 0px 15px rgb(59, 58, 58);
+    background-color: #ECF0F1;
+}
+
+
+.principal{
+    display: flex;
+}
+.img-principal{
+    margin-top: 30px;
+    height: 510px;
+    width: 350px;
+    box-shadow: 10px 12px 10px 10px rgba(43, 42, 42, 0.726);
+ }
+
+.descricao{
+    margin: 40px;
+}
+.descricao p {
+    font-family: cursive, sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.compre-agora{
+    margin: auto;
+    position: auto;
+}
+.descricao button{
+    position: absolute;
+    text-align: center;
+    background-color: #2591f7;
+    height: 60px;
+    border: none;
+    padding: 4px;
+    width: 40%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 12px ;
+    margin: auto;
+    
+}
+.descricao a {
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+main{
+    margin: 30px;
+}
+
+.opcoes{
+    margin: 30px;
+}
+
+.titulo{
+    margin: 100px 0px -40px 0px;
+}
+
+.book-op{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-livro{
+    border-radius: 12px;
+    width: 100%;
+}
+
+.card-livro{
+    background-color: #fff;
+    width: 180px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 30px black;
+    margin: 80px 30px 15px;
+
+}
+.card-livro h1 {
+    font-size: 1.2rem;
+    font-family: 'Nunito', cursive;
+
+}
+
+.card-livro h2{
+    font-size: .7rem;
+    color: #4b4a4a;
+    font-family: 'Nunito', cursive;
+}
+
+.card-livro button {
+    background-color:#2591f7;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 12px ;
+    box-shadow: 5px 5px 20px black;
+}
+.saiba{
+    color: #fff;
+}
+
+.card-livro div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 4px;
+}
+.botaop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+
+    
+footer{
+    background-color: #ECF0F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 200px;
+    width: 100%;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contatos h1 {
+    font-size: 2rem;
+}
+.contatos h2 {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1080px){
+
+body{
+    margin: 10px;
+    width: auto;
+   }
+
+    .img-principal{
+        height: 400px;
+        text-align: center;
+        width: auto;
+        margin: 20px;
+    }
+
+
+    .compre-agora{
+        margin: auto;
+        position: auto;
+        width: auto;
+    }
+
+ .principal{
+    display: flex;
+    flex-direction: column;
+ }
+ .descricao a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.descricao h1{
+    font-size: 1.3rem;
+}
+.descricao p {
+    font-family: cursive, sans-serif;
+    font-size: 0.7rem;
+}
+
+    
+}
+
+@media screen and (max-width: 850px){
+    .book-op{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+       
+}

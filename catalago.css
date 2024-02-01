@@ -1,0 +1,166 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Mono&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital@0;1&family=Poppins&display=swap')
+
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+
+.img-menu{
+    height: 60px;
+}
+
+.enu{
+    box-shadow: 0px 0px 15px rgb(59, 58, 58);
+    background-color: #ECF0F1;
+}
+.nav-link{
+    margin: 0px 20px;
+    align-items: center;
+    padding: 20px 10px ;
+    border-radius: 5px;
+}
+
+.login{
+    background-color: #2591f7;
+    height: 40px;
+    width: 80px;
+    border-radius: 12px;
+    margin: 20px;
+}
+.login a {
+    color: #fff;
+}
+
+
+.catalago{
+   margin-top: 40px;
+}
+.romance{
+    background-color: #ECF0F1;
+    justify-content: center;
+    padding: 40px;
+}
+.categoria{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    margin: 20px;
+
+}
+
+.tecnologia{
+    margin-top: 30px;
+    padding: 40px;
+}
+.fantasia{
+    margin-top: 30px;
+    background-color: #ECF0F1;
+    padding: 40px;
+    width: 100%;
+}
+
+.livros{
+    display: flex;
+    justify-content: center;
+}
+.card-livro{
+    background-color: #fff;
+    width: 130px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 30px black;
+    margin: 0px 15px 0px;
+}
+
+.img-livro{
+    border-radius: 12px;
+    width: 100%;
+}
+
+.card-livro div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 4px;
+}
+.card-livro h1 {
+    font-size: 0.9rem;
+    font-family: 'Nunito', cursive;
+
+}
+.card-livro h2{
+    font-size: .9rem;
+    color: #4b4a4a;
+    font-family: 'Nunito', cursive;
+}
+
+.saiba{
+    color: #fff;
+}
+.card-livro button {
+
+background-color:#2591f7;
+height: 30px;
+border: none;
+padding: 4px;
+width: 80%;
+color: #fff;
+font-size: 0.7rem;
+font-weight: bold;
+border-radius: 12px ;
+box-shadow: 5px 5px 20px black;
+}
+
+
+
+footer{
+    margin-top: 30px ;
+    background-color: #ECF0F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 200px;
+    width: 100%;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contatos h1 {
+    font-size: 2rem;
+}
+.contatos h2 {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 800px){
+    .livros{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-livro{
+        margin: 30px;
+        width: auto;
+    }
+
+    .tecnologia{
+        width: auto;
+
+    }
+    .fantasia{
+        width: auto;
+    }
+    .romance{
+        width: auto;
+    }
+}
