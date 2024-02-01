@@ -24,6 +24,16 @@
     border-radius: 5px;
 }
 
+.pesquisar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 12px;
+
+}
+
 .login{
     background-color: #2591f7;
     height: 40px;
